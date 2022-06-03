@@ -23,7 +23,6 @@ public class HeapSort {
             heapsize--;
             max_heapify(a,heapsize,1);
 
-
         }
 
     }
