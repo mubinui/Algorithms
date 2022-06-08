@@ -1,6 +1,7 @@
 package Graph_Algorithms;
 
 import java.util.LinkedList;
+import java.util.ListIterator;
 import java.util.Stack;
 
 public class DFSGraph <K> {
@@ -28,9 +29,11 @@ public class DFSGraph <K> {
         boolean [] visited = new boolean[V];
         Stack<K> stack = new Stack<>();
         stack.add(start);
+        ListIterator<K> li ;
 
 
         while (!stack.isEmpty()){
+
 
 
         }
